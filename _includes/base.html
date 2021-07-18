@@ -50,8 +50,8 @@ site: Pet Photos
                     <ul>
                         <li>
                             <a href="{{ photo.url }}">
-                                A {{ photo.data.photo_keyword }} photo
-                                by {{ photo.data.photographer_first_name}} {{ photo.data.photographer_last_name }}
+                                 A {{ photo.data.photo_keyword }} photo
+                                 by {{ photo.data.photographer_first_name}} {{ photo.data.photographer_last_name }}
                             </a>
                         </li>
                     </ul>
@@ -62,7 +62,7 @@ site: Pet Photos
         <h2>Picture Info</h2>
 
         {% if photographer_username != '' %}
-            <h3><a href="https://unsplash.com/@{{photographer_username}}">Link To Source</a></h3>
+            <h3><a href="https://unsplash.com/@{{photographer_username}}">Link_To_Source</a></h3>
         {% endif %}
 
         <p>Ai description: {{ai_description}} </p>
